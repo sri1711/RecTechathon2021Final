@@ -19,11 +19,15 @@
         android:layout_weight="9"
         android:gravity="center_horizontal"
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Search"
-            android:textColor="@color/icon_color"
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Search"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            android:maxLines="1"
+
             />
     </LinearLayout>
 </LinearLayout>
