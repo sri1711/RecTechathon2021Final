@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DevForum">
         <activity
+<<<<<<< HEAD
             android:name=".CreatedTeamInfo"
             android:exported="true" >
 
@@ -23,6 +24,19 @@
         <activity
             android:name=".competitiondetails"
             android:exported="true" >
+=======
+            android:name=".register_activity"
+            android:exported="false" />
+        <activity
+            android:name=".account_details_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".login_activity"
+            android:exported="true">
+>>>>>>> ff65a7f642dff5cc35a9e8e8d09dfc0b882e1a24
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,6 +45,7 @@
 
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".homescreen_admin"
             android:exported="true" />
         <activity
@@ -39,6 +54,13 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+=======
+            android:name=".competitiondetails"
+            android:exported="true"></activity>
+        <activity
+            android:name=".homescreen_student"
+            android:exported="true"></activity>
+>>>>>>> ff65a7f642dff5cc35a9e8e8d09dfc0b882e1a24
 
         <meta-data
             android:name="preloaded_fonts"

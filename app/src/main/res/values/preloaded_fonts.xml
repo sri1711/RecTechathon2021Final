@@ -2,6 +2,14 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/cantora_one</item>
+<<<<<<< HEAD
         <item>@font/roboto</item>
+=======
+
+        <item>@font/cantata_one</item>
+        <item>@font/cantora_one</item>
+      <item>@font/roboto</item>
+
+>>>>>>> ff65a7f642dff5cc35a9e8e8d09dfc0b882e1a24
     </array>
 </resources>

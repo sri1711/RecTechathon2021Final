@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="Let’s get Started"
+                android:textColor="@color/text_color"
+                android:textSize="45sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Create your account and\n join the community!"
+                android:textColor="@color/text_color_subhead"
+                android:textSize="22sp"
+                android:fontFamily="@font/cantora_one"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/genderImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:civ_border_color="@color/black"
+                android:layout_marginTop="10dp"
+                app:civ_border_width="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/def_user_avatar"
+                />
+
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/et_background"
+                android:hint="Name"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="18dp"
+                android:textColor="@color/text_color"
+                android:singleLine="true"
+                android:textColorHint="@color/hint_color"
+                />
+
+            <EditText
+                android:id="@+id/deptName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/et_background"
+                android:hint="department(ex. AutoMobile Engineering)"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="18dp"
+                android:textColor="@color/text_color"
+                android:singleLine="true"
+                android:textColorHint="@color/hint_color"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:id="@+id/GenderLayout"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxBackgroundColor="@color/et_fillcolor"
+                app:hintTextColor="@color/hint_color"
+                app:boxStrokeWidth="0.2dp"
+                app:boxStrokeColor="@color/et_stroke_color"
+                app:boxBackgroundMode="outline"
+                app:hintEnabled="false"
+                app:boxStrokeWidthFocused="0.2dp"
+                >
+                <AutoCompleteTextView
+                    android:hint="Gender"
+                    android:textSize="18dp"
+                    android:textColor="@color/text_color"
+                    android:shadowColor="@color/hint_color"
+                    android:id="@+id/filled_exposed_dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingVertical="0dp"
+                    android:inputType="none"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/et_Mail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/text_color"
+                android:background="@drawable/et_background"
+                android:hint="Email ID"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="18dp"
+                android:singleLine="true"
+                android:textColorHint="@color/hint_color"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxBackgroundColor="@color/et_fillcolor"
+                app:hintTextColor="@color/hint_color"
+                app:boxStrokeWidth="0.2dp"
+                app:boxStrokeColor="@color/et_stroke_color"
+                app:boxBackgroundMode="outline"
+                app:hintEnabled="false"
+                app:boxStrokeWidthFocused="0.2dp"
+                >
+                <AutoCompleteTextView
+                    android:hint="Designation"
+                    android:textSize="18dp"
+                    android:shadowColor="@color/hint_color"
+                    android:id="@+id/designation_exposed_dropdown"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/text_color"
+                    android:layout_height="60dp"
+                    android:paddingVertical="0dp"
+                    android:inputType="none"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Pass_Textinput"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="20dp"
+                app:hintEnabled="false"
+                app:boxStrokeErrorColor="#FF0000"
+                android:layout_marginHorizontal="20dp"
+                app:boxBackgroundMode="none"
+                >
+                <EditText
+                    android:id="@+id/et_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/et_background"
+                    android:hint="Password"
+                    android:paddingVertical="0dp"
+                    android:singleLine="true"
+                    android:textSize="18dp"
+                    android:textColor="@color/text_color"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/hint_color"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/cPass_Textinput"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="20dp"
+                app:hintEnabled="false"
+                android:layout_marginHorizontal="20dp"
+                app:boxBackgroundMode="none"
+                >
+                <EditText
+                    android:id="@+id/et_cpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/et_background"
+                    android:textColor="@color/text_color"
+                    android:hint="Confirm password"
+                    android:paddingVertical="0dp"
+                    android:singleLine="true"
+                    android:textSize="18dp"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/hint_color"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_signup"
+                android:layout_width="308dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Sign Up"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/btn_color"
+                android:fontFamily="@font/cantora_one"
+                android:textSize="18dp"
+                android:textColor="@color/text_color_Btn"
+                app:cornerRadius="12dp"
+                app:rippleColor="@color/hint_color"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2"
+                android:layout_gravity="center"
+                android:paddingVertical="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Already have a account?"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color"
+                    />
+                <Button
+                    android:id="@+id/btn_signIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto"
+                    app:rippleColor="@color/hint_color"
+                    android:textColor="@color/text_color"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
