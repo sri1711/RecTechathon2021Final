@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateTeam">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/man"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/et_background"
+        android:hint="Enter your team name"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="18dp"
+        android:textColor="@color/text_color"
+        android:singleLine="true"
+        android:textColorHint="@color/hint_color"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:id="@+id/teamSizeLayout"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxBackgroundColor="@color/et_fillcolor"
+        app:hintTextColor="@color/hint_color"
+        app:boxStrokeWidth="0.2dp"
+        app:boxStrokeColor="@color/et_stroke_color"
+        app:boxBackgroundMode="outline"
+        app:hintEnabled="false"
+        app:boxStrokeWidthFocused="0.2dp"
+        >
+        <AutoCompleteTextView
+            android:hint="Team size"
+            android:textSize="18dp"
+            android:textColor="@color/text_color"
+            android:shadowColor="@color/hint_color"
+            android:id="@+id/createTeam_filled_exposed_dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingVertical="0dp"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_createNewTeam"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Create Team"
+        android:layout_marginVertical="12dp"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/btn_color"
+        android:fontFamily="@font/cantora_one"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="12dp"
+        app:rippleColor="@color/hint_color"
+        />
+</LinearLayout>

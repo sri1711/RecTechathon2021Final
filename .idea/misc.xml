@@ -3,18 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/drawable/et_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/drawable/ic_content_copy.xml" value="0.14322916666666666" />
         <entry key="..\:/RecTechathon2021Final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/drawable/ripple_effect_back_button.xml" value="0.14322916666666666" />
         <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_competitiondetails.xml" value="0.25" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_create_team.xml" value="0.264" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_created_team_info.xml" value="0.264" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_homescreen_admin.xml" value="0.2" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_homescreen_student.xml" value="0.2" />
         <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_main.xml" value="0.25" />
-=======
-        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/card_bg.xml" value="0.25277777777777777" />
-        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/ic_round_search_24.xml" value="0.25277777777777777" />
-        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/search_bar_bg.xml" value="0.25277777777777777" />
-        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_homescreen_admin.xml" value="0.1875" />
-        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_homescreen_student.xml" value="0.152" />
-        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/searchbar.xml" value="0.152" />
->>>>>>> 508361862e59badebaf907fe60c876354364fcb5
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/dropdown_menu_popup_item.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">DevForum</string>
-    <string name = "competition_Details">CodeVita makes it easy to build and deploy blockchain based solutions for a world where everyone creates and exchanges value efficiently, transparently, and securely. Thousands of developers and organizations comprised of fintechs, startups, financial services, institutions, and DeFi are currently building on CodeVita. The robust community is creating a healthy ecosystem of organizations that are aligned with CodeVita\'s longer term vision for the future of finance.</string>
+    <string name="competition_Details">CodeVita makes it easy to build and deploy blockchain based solutions for a world where everyone creates and exchanges value efficiently, transparently, and securely.\n\nThousands of developers and organizations comprised of fintechs, startups, financial services, institutions, and DeFi are currently building on CodeVita.\n\nThe robust community is creating a healthy ecosystem of organizations that are aligned with CodeVita\'s longer term vision for the future of finance.</string>
 </resources>

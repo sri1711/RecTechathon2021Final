@@ -10,31 +10,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DevForum">
         <activity
-<<<<<<< HEAD
+            android:name=".CreatedTeamInfo"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".CreateTeam"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".competitiondetails"
             android:exported="true" >
-=======
-            android:name=".homescreen_admin"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".homescreen_student"
-            android:exported="true">
->>>>>>> 508361862e59badebaf907fe60c876354364fcb5
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
+            android:name=".homescreen_admin"
+            android:exported="true" />
+        <activity
+            android:name=".homescreen_student"
+            android:exported="true"></activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-<<<<<<< HEAD
-
-=======
->>>>>>> 508361862e59badebaf907fe60c876354364fcb5
-        </activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
