@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/logo_main"
+            android:src="@drawable/async_devs_logo"
             />
 
         <LinearLayout
@@ -32,14 +32,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cantora_one"
-                android:text="Async"
+                android:text="Dev"
                 android:textColor="@color/title_text_color"
                 android:textSize="25dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cantora_one"
-                android:text="Devs"
+                android:text="Forum"
                 android:textColor="@color/title_text_color"
                 android:textSize="25dp" />
         </LinearLayout>
