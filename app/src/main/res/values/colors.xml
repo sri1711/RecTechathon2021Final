@@ -7,7 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="text_color">#000000</color>
     <color name="hint_color">#A4A4A4</color>
     <color name="btn_color">#2969F3</color>
+=======
+
+    <color name="bar_color">#E7E7E7</color>
+    <color name="icon_color">#413030</color>
+    <color name="hint_color">#A4A4A4</color>
+    <color name="tile_color">#A4A4A4</color>
+    <color name="text_color">#000000</color>
+>>>>>>> 508361862e59badebaf907fe60c876354364fcb5
 </resources>

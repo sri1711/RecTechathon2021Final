@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+<<<<<<< HEAD
         <item>@font/cantora_one</item>
+=======
+        <item>@font/roboto</item>
+>>>>>>> 508361862e59badebaf907fe60c876354364fcb5
     </array>
 </resources>
