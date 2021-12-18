@@ -75,9 +75,8 @@ class login_activity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btn_signup).setOnClickListener {
-            // TODO: 18-Dec-21
-//            val intent = Intent(this, RegisterScreen::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, register_activity::class.java)
+            startActivity(intent)
         }
 
         findViewById<Button>(R.id.mbtn_GsignIn).setOnClickListener {

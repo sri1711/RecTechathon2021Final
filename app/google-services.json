@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "794551132553",
+    "project_id": "devforum-e878e",
+    "storage_bucket": "devforum-e878e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794551132553:android:51f62574ca536ba5934158",
+        "android_client_info": {
+          "package_name": "com.asyncdevs.devforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794551132553-jblnhnf7ipuq5vskmqlol18i2jnasfbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsOCt6VTX0Um-P__GdyRTfSbWoOqhWXJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794551132553-jblnhnf7ipuq5vskmqlol18i2jnasfbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
