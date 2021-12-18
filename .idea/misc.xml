@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable-v24/gradient_line2.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/card_bg.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/et_background.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/ic_round_search_24.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/ic_svg_google__g__logo.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/search_bar_bg.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_homescreen_admin.xml" value="0.1875" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_homescreen_student.xml" value="0.152" />
+        <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_login.xml" value="0.128" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/searchbar.xml" value="0.152" />
       </map>
     </option>

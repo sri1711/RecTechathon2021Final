@@ -13,4 +13,23 @@
     <color name="hint_color">#A4A4A4</color>
     <color name="tile_color">#A4A4A4</color>
     <color name="text_color">#000000</color>
+
+
+
+    <color name="app_bg">#FAFAFA</color>
+    <color name="title_text_color">#000000</color>
+    <color name="caption_text_color">#3E3E3E</color>
+
+
+    <color name="stroke_color">#2D2A2E</color>
+    <color name="tile_text_color">#2969F3</color>
+
+    <color name="bg_color">#FAFAFA</color>
+    <color name="btn_color">#2969F3</color>
+
+    <color name="text_color_Btn">#FFFFFF</color>
+    <color name="text_color_subhead">#6A6A6A</color>
+    <color name="et_stroke_color">#5C5C5C</color>
+    <color name="et_fillcolor">#F0F0F0</color>
+
 </resources>
