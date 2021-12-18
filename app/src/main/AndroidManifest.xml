@@ -10,14 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DevForum">
         <activity
+<<<<<<< HEAD
             android:name=".account_details_activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+=======
+            android:name=".login_activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".competitiondetails"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".homescreen_student"
+>>>>>>> 219b210cfd196fc00e7f4eaf8d9a55aee6cd001a
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
