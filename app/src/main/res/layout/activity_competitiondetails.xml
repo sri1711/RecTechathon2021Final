@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".competitiondetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/compbanner"
+                android:padding="12dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cantora_one"
+                android:gravity="center"
+                android:padding="12sp"
+                android:text="Google HackFest 2021"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:textSize="20sp"
+                android:fontFamily="@font/cantora_one"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingHorizontal="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/competition_Details"
+                android:textAlignment="textStart"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/cantora_one"
+                android:textColor="@color/text_color"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Team Size:"
+                    android:textColor="@color/text_color"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cantora_one"
+                    android:paddingHorizontal="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 Members"
+                    android:fontFamily="@font/cantora_one"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue:"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/cantora_one"
+                        android:paddingHorizontal="15sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REC"
+                        android:fontFamily="@font/cantora_one"
+                        android:textColor="@color/text_color"
+                        android:textSize="16sp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="start"
+                android:paddingVertical="12dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date and Time:"
+                    android:textColor="@color/text_color"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cantora_one"
+                    android:paddingHorizontal="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="29-12-2021 10:30-12:30"
+                    android:fontFamily="@font/cantora_one"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="2"
+                >
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_weight="1"
+                android:id="@+id/btn_createTeam"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Create Team"
+                android:layout_marginStart="12dp"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/btn_color"
+                android:fontFamily="@font/cantora_one"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="12dp"
+                app:rippleColor="@color/hint_color"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_JoinTeam"
+                android:layout_weight="1"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Join Team"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/btn_color"
+                android:fontFamily="@font/cantora_one"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="12dp"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="12dp"
+                app:rippleColor="@color/hint_color"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
