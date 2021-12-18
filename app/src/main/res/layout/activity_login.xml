@@ -9,7 +9,6 @@
     android:background="@color/bg_color"
     tools:context=".login_activity">
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

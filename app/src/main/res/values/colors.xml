@@ -8,11 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+
     <color name="bar_color">#E7E7E7</color>
     <color name="icon_color">#413030</color>
     <color name="hint_color">#A4A4A4</color>
     <color name="tile_color">#A4A4A4</color>
     <color name="text_color">#000000</color>
+
 
 
 
@@ -32,4 +34,7 @@
     <color name="et_stroke_color">#5C5C5C</color>
     <color name="et_fillcolor">#F0F0F0</color>
 
+=======
+>>>>>>> 508361862e59badebaf907fe60c876354364fcb5
+>>>>>>> ce0d6be4a9af87ddd509c7b86270a54806690690
 </resources>

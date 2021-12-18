@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable-v24/gradient_line2.xml" value="0.18958333333333333" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_competitiondetails.xml" value="0.25" />
+        <entry key="..\:/RecTechathon2021Final/app/src/main/res/layout/activity_main.xml" value="0.25" />
+=======
+>>>>>>> ce0d6be4a9af87ddd509c7b86270a54806690690
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/card_bg.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/et_background.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/drawable/ic_round_search_24.xml" value="0.25277777777777777" />
@@ -13,6 +21,7 @@
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_homescreen_student.xml" value="0.152" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/activity_login.xml" value="0.128" />
         <entry key="..\:/Users/SURYA/Desktop/tech/app/src/main/res/layout/searchbar.xml" value="0.152" />
+>>>>>>> 508361862e59badebaf907fe60c876354364fcb5
       </map>
     </option>
   </component>
